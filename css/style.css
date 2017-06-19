@@ -56,11 +56,12 @@ ul.btns {
 }
 .btns li {
 	padding-right: 38px;
-	display: inline;
+	display: inline-block;
 }
 .btns li [type="image"]:hover {
-	zoom: 1.3;
+	transform: scale(1.5);
 	cursor: auto;
+	
 	display: inline-block;
 }
 #roy {
