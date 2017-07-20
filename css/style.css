@@ -1,0 +1,121 @@
+body {
+	width: 1200px;
+	height: 900px;
+	background-color: #464f54;
+}
+#header {
+	width: 876px;
+	height: 187px;
+	box-shadow: -3px -3px 59px rgba(0, 0, 0, 0.16);
+	background-color: #181818;
+	margin-left: 324px;
+	margin-top: 47px;
+	position: relative;
+	z-index: 2;
+}
+#vvod {
+	background-color: inherit;
+	width: 342px;
+	height: 40px;
+	color: #fefefe;
+	font-family: "Playfair Display";
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 94px;
+	margin-left: 64px;
+	margin-top: 63px;
+	outline:none;
+	border: none; /*DELETE*/
+}
+h1 {
+	width: 57px;
+	height: 10px;
+	color: #767676;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 109px;
+	text-transform: uppercase;
+	padding-left: 63px;
+}
+aside {
+	width: 812px;
+	height: 76px;
+	box-shadow: -3px -3px 59px rgba(0, 0, 0, 0.16);
+	background-color: #fbc02d;
+	margin-left: 388px;
+	position: relative;
+	z-index: 2;
+}
+aside.btns#kosyak {
+	padding-top: 25px;
+}
+ul.btns {
+	margin: 0;
+	padding-top: 22px;
+}
+.btns li {
+	padding-right: 38px;
+	display: inline-block;
+}
+.btns li [type="image"]:hover {
+	transform: scale(1.5);
+	cursor: auto;
+	
+	display: inline-block;
+}
+#roy {
+	width: 211px;
+	height: 17px;
+	color: #b4b4b4;
+	font-family: "Proxima Nova";
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+article {
+	width: 755px;
+	height: 54px;
+	color: #2a2a2a;
+	font-family: "Futura PT", sans-serif;
+	font-size: 78px;
+	font-weight: 800;
+	line-height: 74px;
+	text-transform: uppercase;
+	margin-left: -5px;
+	padding-top: 47px;
+	white-space: pre;
+}
+#questions{
+	width: 551px;
+	height: 30px;
+	color: #8f8f8f;
+	font-family: Georgia;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 62px;
+	white-space: pre;
+	padding-top: 30px;
+}
+.main {
+	width: 1060px;
+	height: 751px;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+	background-color: #ffffff;
+	margin-left: 70px;
+	margin-top: -161px;
+	margin-right: 70px;
+	padding-left: 50px;
+	padding-top: 200px;
+}
+main p {
+	width: 804px;
+	height: 107px;
+	color: #000000;
+	font-family: Georgia;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: justify;
+	margin-top: 80px;
+}
